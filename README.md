@@ -22,6 +22,12 @@ what broke, what it would have cost the traditional way.
 | 2026-09-14 | [The build log went public](reports/2026-09-14-build-log-went-public.html) — this repository, the redaction pipeline that nearly published its own blocklist, and a custom domain |
 | 2026-09-14 | [The SEO pack shipped](reports/2026-09-14-seo-pack-shipped.html) — /pilot from 404 to live, eleven articles published, 26 URLs in the sitemap |
 
+## Code released
+
+| Project | What it is |
+|---|---|
+| [zero-dep-markdown](https://github.com/jobisgreat/zero-dep-markdown) | The markdown renderer behind the articles on airocket.pro. One file, no dependencies, MIT. |
+
 ## How these are produced
 
 Reports are generated from a structured data file, then put through three gates before
