@@ -24,9 +24,9 @@ what broke, what it would have cost the traditional way.
 
 ## Code released
 
-| Project | What it is |
-|---|---|
-| [zero-dep-markdown](https://github.com/jobisgreat/zero-dep-markdown) | The markdown renderer behind the articles on airocket.pro. One file, no dependencies, MIT. |
+| Project | What it is | URL |
+|---|---|---|
+| [zero-dep-markdown](https://github.com/jobisgreat/zero-dep-markdown) | The markdown renderer behind the articles on airocket.pro. One file, no dependencies, MIT. | https://github.com/jobisgreat/zero-dep-markdown |
 
 ## How these are produced
 
@@ -51,4 +51,4 @@ or browse the published version if GitHub Pages is enabled on this repository.
 ---
 
 AI Rocket · 681 Main Street, Waltham, MA 02451 · hello@airocket.pro
-Serving Waltham, Newton, Boston &amp; Greater Boston.
+Serving Waltham, Newton, Boston & Greater Boston.
