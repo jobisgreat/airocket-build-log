@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Rocket — Build Log</title>
+<meta name="description" content="Public build record for airocket.pro. One founder in Waltham directing AI agents to build and run a business. Verified numbers, and the failures too.">
+<style>
+  :root{
+    --bg:#0d1117; --panel:rgba(255,255,255,0.03); --border:rgba(255,255,255,0.10);
+    --text:#e6edf3; --muted:#8b949e; --blue:#58a6ff; --cyan:#39d353; --gold:#f0b429;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:820px;margin:0 auto;padding:64px 20px 80px}
+  .eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);
+           font-weight:600;margin:0 0 18px}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.1;letter-spacing:-.02em;margin:0 0 18px;font-weight:600}
+  .lede{font-size:17px;color:var(--muted);max-width:60ch;margin:0 0 10px}
+  .rule{height:1px;background:var(--border);margin:40px 0}
+  h2{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
+     font-weight:600;margin:0 0 20px}
+  a.entry{display:block;text-decoration:none;color:inherit;background:var(--panel);
+          border:1px solid var(--border);border-radius:14px;padding:22px 24px;margin-bottom:14px;
+          transition:border-color .15s,transform .15s}
+  a.entry:hover{border-color:rgba(88,166,255,.55);transform:translateY(-1px)}
+  .date{font-family:"Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+        font-size:12px;color:var(--gold);letter-spacing:.06em}
+  .title{font-size:19px;font-weight:600;margin:8px 0 6px;letter-spacing:-.01em}
+  .desc{font-size:14px;color:var(--muted);margin:0}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .stat{font-family:"Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+        font-size:11px;color:var(--cyan);border:1px solid rgba(57,211,83,.28);
+        border-radius:999px;padding:3px 10px}
+  .note{font-size:13px;color:var(--muted);background:var(--panel);border:1px solid var(--border);
+        border-left:3px solid var(--gold);border-radius:10px;padding:16px 18px;margin-top:8px}
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--border);
+         font-size:12px;color:var(--muted)}
+  footer a{color:var(--blue);text-decoration:none}
+  footer a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">AI Rocket · Waltham, MA</p>
+  <h1>Build Log</h1>
+  <p class="lede">
+    One founder directing AI agents to build and run a business. Each entry is one working
+    session: what shipped, what broke, and what it would have cost the traditional way.
+  </p>
+  <p class="lede">
+    Line counts come from <code>git log</code>. URL checks are live fetches. Developer hours
+    and dollar comparisons are estimates, labelled as estimates. The failures are in here too —
+    a log that only contains wins is marketing, not a record.
+  </p>
+
+  <div class="rule"></div>
+
+  <h2>Entries</h2>
+
+  <a class="entry" href="reports/2026-09-14-seo-pack-shipped.html">
+    <span class="date">2026-09-14</span>
+    <div class="title">The SEO pack shipped</div>
+    <p class="desc">
+      /pilot went from 404 to live, eleven articles were published on a new blog built with a
+      zero-dependency renderer, and the sitemap went from unreadable to 26 URLs — every one
+      returning 200. Two hours were lost to a stale repo clone, and one wrong call-to-action
+      shipped on eleven pages before it was caught.
+    </p>
+    <div class="stats">
+      <span class="stat">4,729 insertions</span>
+      <span class="stat">64 files</span>
+      <span class="stat">10 commits</span>
+      <span class="stat">11 articles live</span>
+      <span class="stat">26 URLs · 0 non-200</span>
+    </div>
+  </a>
+
+  <p class="note">
+    Every entry is a single self-contained HTML file — no CDN, no external fonts, no tracking.
+    Open one offline and the charts still render.
+  </p>
+
+  <footer>
+    AI Rocket · 681 Main Street, Waltham, MA 02451 ·
+    <a href="https://www.airocket.pro">airocket.pro</a> ·
+    <a href="mailto:hello@airocket.pro">hello@airocket.pro</a><br>
+    Serving Waltham, Newton, Boston &amp; Greater Boston.
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Internal session data must never be committed to a public repository.
+eod_data.json
+
+# The build tooling itself names the terms it redacts, so it stays local.
+tools/
+*.internal.json
+*.internal.html
+*_EOD.html
+Session_Report_*.html
+EOD-Report-*.pdf
+
+# Sealer backups
+*.bak
+
+# Local noise
+.DS_Store
+Thumbs.db
+node_modules/
+chartlib/
