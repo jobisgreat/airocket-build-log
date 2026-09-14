@@ -19,6 +19,7 @@ what broke, what it would have cost the traditional way.
 
 | Date | Entry |
 |---|---|
+| 2026-09-14 | [The build log went public](reports/2026-09-14-build-log-went-public.html) — this repository, the redaction pipeline that nearly published its own blocklist, and a custom domain |
 | 2026-09-14 | [The SEO pack shipped](reports/2026-09-14-seo-pack-shipped.html) — /pilot from 404 to live, eleven articles published, 26 URLs in the sitemap |
 
 ## How these are produced
